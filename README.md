@@ -1,4 +1,4 @@
-# Radiant Wallet
+# Radiant Wallet (StreamPay Wallet)
 
 Radiant Wallet is the simplest, sexiest, mobile wallet for the Solana ecosystem.
 
