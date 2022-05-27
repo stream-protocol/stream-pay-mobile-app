@@ -270,7 +270,7 @@ const WalletDetailsScreen = ({ navigation }: Props) => {
 							marginBottom: 24,
 						}}
 					>
-						You can always re-import this wallet to Radiant in the
+						You can always re-import this wallet to Stream Pay in the
 						future.
 					</Text>
 					<View style={styles.removeWalletButton}>

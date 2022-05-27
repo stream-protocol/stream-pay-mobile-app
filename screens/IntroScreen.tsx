@@ -34,7 +34,7 @@ const IntroScreen = ({ navigation }: Props) => {
 						}}
 					/>
 					<Image
-						source={require('../assets/images/radiant.png')}
+						source={require('../assets/images/stream.png')}
 						style={{
 							width: 224,
 							height: 33,
@@ -79,7 +79,7 @@ const IntroScreen = ({ navigation }: Props) => {
 							marginTop: 32,
 						}}
 					>
-						Copyright Radiant Wallet 2021
+						Copyright 2022 Stream Protocol. LLC
 					</Text>
 				</View>
 			</View>

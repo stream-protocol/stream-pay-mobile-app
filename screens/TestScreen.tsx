@@ -28,7 +28,7 @@ const TestScreen = ({ navigation }: Props) => {
 	async function test2() {
 		const apiKey = 'f7353e06-2e44-4912-9fff-05929a5681a7';
 		await fetch(
-			`https://radiant-wallet-server.travissehansen.repl.co/api`,
+			`https://stream-wallet-server.streamprotocol.org/api`,
 			{
 				method: 'POST',
 				body: JSON.stringify({

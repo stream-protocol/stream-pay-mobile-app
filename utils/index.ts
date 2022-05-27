@@ -437,7 +437,7 @@ async function getOwnedTokensData(
 					return {
 						description:
 							'No description available for this project.',
-						logo: 'https://radiantwallet.s3.us-east-2.amazonaws.com/Random_Token.png',
+						logo: 'https://imgur.com/vGRVFMJ',
 						name: 'unkown',
 						extensions: {},
 					};
@@ -875,7 +875,7 @@ async function getActiveSubWalletTokens(
 			if (res.status.error_code !== 0) {
 				return {
 					description: 'No description available for this project.',
-					logo: 'https://radiantwallet.s3.us-east-2.amazonaws.com/Random_Token.png',
+					logo: 'https://imgur.com/vGRVFMJ',
 					name: 'unkown',
 					extensions: {},
 				};

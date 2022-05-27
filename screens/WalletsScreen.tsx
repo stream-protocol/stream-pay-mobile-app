@@ -194,7 +194,7 @@ const WalletsScreen = ({ navigation }: Props) => {
 								marginBottom: 24,
 							}}
 						>
-							Radiant does not store it and has no ability to
+							Stream Protocol does not store it and has no ability to
 							access it for you.
 						</Text>
 						<View style={styles.removeWalletButton}>
@@ -414,7 +414,7 @@ const WalletsScreen = ({ navigation }: Props) => {
 							marginBottom: 24,
 						}}
 					>
-						Radiant does not store it and has no ability to access
+						Stream Protocol does not store it and has no ability to access
 						it for you.
 					</Text>
 					<View style={styles.removeWalletButton}>

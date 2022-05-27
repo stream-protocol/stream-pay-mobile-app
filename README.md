@@ -36,7 +36,7 @@ Please let us know what you think and be sure to give us a follow on Twitter for
 - Governance: Vote etc. (Solana, Realm)
 - Stake & farming functionalities
 - Collect tax & txt. fees
-- Create Stream API
+- Create Stream APIs https://wallet.streamprotocol.org/api, https://staging.streamprotocol.org/wallet/api
 - Name service: DNS transaction & P2P payment feature
 - Stream Swap & token features
 - QR code / NFC payment dev, features & implementation
@@ -49,6 +49,7 @@ Please let us know what you think and be sure to give us a follow on Twitter for
 
 - Added Stream Token (STR) tokenlist.json
 - Minor brand UI/UX tweaks
+- Added Sentry Auth Token 
 
 # Stream Token Contract
 

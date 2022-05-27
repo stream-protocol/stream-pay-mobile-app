@@ -8,7 +8,7 @@
 		"scheme": "myapp",
 		"userInterfaceStyle": "automatic",
 		"splash": {
-			"image": "./assets/images/splash_streamwallet.png",
+			"image": "./assets/images/splash_stream.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
 		},
@@ -40,7 +40,7 @@
 					"config": {
 						"organization": "stream-protocol",
 						"project": "stream-wallet",
-						"authToken": "2f929bb097fd4f5f89bd66566c0b33ea7af8658d919c45799b78faad1ba584d6"
+						"authToken": "2b7d4b9f3c1a48e8ba7e725384d1bd95e3bf6b4263ec4f87b80562ae771fcbfb"
 					}
 				}
 			]
