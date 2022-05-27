@@ -1,14 +1,14 @@
 {
 	"expo": {
-		"name": "wallet2",
-		"slug": "wallet2",
+		"name": "wallet",
+		"slug": "wallet",
 		"version": "0.0.1",
 		"orientation": "portrait",
 		"icon": "./assets/icon.png",
 		"scheme": "myapp",
 		"userInterfaceStyle": "automatic",
 		"splash": {
-			"image": "./assets/images/splash_radiant.png",
+			"image": "./assets/images/splash_streamwallet.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
 		},
@@ -18,7 +18,7 @@
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
 			"backgroundColor": "#ffffff",
-			"bundleIdentifier": "com.radiant.wallet2",
+			"bundleIdentifier": "org.streamprotocol.wallet",
 			"buildNumber": "0.0.1"
 		},
 		"android": {
@@ -26,7 +26,7 @@
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			},
-			"package": "com.radiant.wallet2",
+			"package": "org.streamprotocol.wallet",
 			"versionCode": 1
 		},
 		"web": {
@@ -38,8 +38,8 @@
 				{
 					"file": "sentry-expo/upload-sourcemaps",
 					"config": {
-						"organization": "radiant-wallet",
-						"project": "react-native",
+						"organization": "stream-protocol",
+						"project": "stream-wallet",
 						"authToken": "2f929bb097fd4f5f89bd66566c0b33ea7af8658d919c45799b78faad1ba584d6"
 					}
 				}

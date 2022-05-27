@@ -506,7 +506,7 @@ const TradePreviewScreen = ({ navigation, route }: Props) => {
 						paddingHorizontal: 32,
 						paddingBottom: 32,
 						paddingTop: 8,
-						backgroundColor: '#111111',
+						backgroundColor: '#080b12',
 						borderRadius: 32,
 						width: 194,
 						alignItems: 'center',

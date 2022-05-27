@@ -423,7 +423,7 @@ const DashboardScreen2 = ({ navigation }: Props) => {
 							<Text
 								style={{
 									...theme.fonts.Nunito_Sans.Body_M_Bold,
-									color: '#C9F977',
+									color: '#536976',
 									marginRight: 4,
 								}}
 							>
@@ -481,7 +481,7 @@ const DashboardScreen2 = ({ navigation }: Props) => {
 							borderRadius: 18,
 							height: 56,
 							alignSelf: 'stretch',
-							backgroundColor: '#1E2122',
+							backgroundColor: '#141e30',
 							justifyContent: 'center',
 						}}
 					>

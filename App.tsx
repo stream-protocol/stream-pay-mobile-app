@@ -26,7 +26,7 @@ const routingInstrumentation =
 console.log('routingInstrumentation: ', routingInstrumentation);
 
 Sentry.init({
-	dsn: 'https://8622adb754c3410cbb75dc3a947de79d@o1082874.ingest.sentry.io/6091873',
+	dsn: 'https://6ce52b553d794cc4ac7f7f70765eb36d@o1252019.ingest.sentry.io/6446643',
 	enableInExpoDevelopment: true,
 	debug: true,
 	enableAutoSessionTracking: true,
