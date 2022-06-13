@@ -16,7 +16,7 @@ Please let us know what you think and be sure to give us a follow on Twitter for
 
 - QR code payment features
 - Create/Add swap & dex features
-- Bossible collet transaction fees
+- Possible collet transaction fees (Stream Protocol Wallet)
 - Create/Add NFC payment features
 - StreamPOS / StreamPay merchant application & implementation
 - Create/Add StreamPay Wallet API
