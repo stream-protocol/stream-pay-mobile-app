@@ -15,7 +15,11 @@ Please let us know what you think and be sure to give us a follow on Twitter for
 # ToDo / development
 
 - QR code payment features
-- add swap & dex features
+- Create/Add swap & dex features
+- Bossible collet transaction fees
+- Create/Add NFC payment features
+- StreamPOS / StreamPay merchant application & implementation
+- Create/Add StreamPay Wallet API
 - Create/Add Vote & Governance features
 - Create/Add Staking features
 - Create/Add Stream Token Burning machanisms
