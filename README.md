@@ -16,8 +16,11 @@ Please let us know what you think and be sure to give us a follow on Twitter for
 
 - QR code payment features
 - add swap & dex features
-- Add Swap (cryptocurrency & brandlogos)
-- Info
+- Create/Add Vote & Governance features
+- Create/Add Staking features
+- Create/Add Stream Token Burning machanisms
+- Create/Add Swap (cryptocurrency & brandlogos)
+- Info channel (new features & blog)
 - Styles, Better UI/UX & app design
 - Create Web UI/UX
 - Add Stream Token "STR"
