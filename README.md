@@ -1,6 +1,6 @@
-# Stream Wallet
+# StreamPay Wallet App
 
-Steam Wallet is the simplest mobile wallet for the Solana ecosystem.
+StreamPay Wallet is the contactless, frictionless mobile payment and wallet for the Solana ecosystem.
 
 To try it out do the following:
 
@@ -11,3 +11,19 @@ To try it out do the following:
 Stream is a non-custodial wallet and therefore does not store data about you or your wallet. Your wallet secret phrase is encrypted on the device and can only be accessed using the passcode you set up locally.
 
 Please let us know what you think and be sure to give us a follow on Twitter for Stream Wallet updates: https://twitter.com/stream_protocol
+
+# ToDo / development
+
+- QR code payment features
+- add swap & dex features
+- Add Swap (cryptocurrency & brandlogos)
+- Info
+- Styles, Better UI/UX & app design
+- Create Web UI/UX
+- Add Stream Token "STR"
+- "Stream" Brand tweaks 
+- Color presets & Teko font
+- Stream Token implementation
+- Create better NFT collection
+- Proof of Ownership
+- 
