@@ -5,7 +5,7 @@
 		"version": "0.0.1",
 		"orientation": "portrait",
 		"icon": "./assets/icon.png",
-		"scheme": "myapp",
+		"scheme": "wallet-app",
 		"userInterfaceStyle": "automatic",
 		"splash": {
 			"image": "./assets/images/splash_stream.png",
