@@ -1,7 +1,7 @@
 {
 	"expo": {
-		"name": "wallet2",
-		"slug": "wallet2",
+		"name": "wallet",
+		"slug": "wallet",
 		"version": "0.0.1",
 		"orientation": "portrait",
 		"icon": "./assets/icon.png",
