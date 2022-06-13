@@ -26,4 +26,4 @@ Please let us know what you think and be sure to give us a follow on Twitter for
 - Stream Token implementation
 - Create better NFT collection
 - Proof of Ownership
-- 
+- Solana tokenlist updates
