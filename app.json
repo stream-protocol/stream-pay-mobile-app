@@ -8,7 +8,7 @@
 		"scheme": "myapp",
 		"userInterfaceStyle": "automatic",
 		"splash": {
-			"image": "./assets/images/splash_radiant.png",
+			"image": "./assets/images/splash_stream.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
 		},
@@ -18,7 +18,7 @@
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
 			"backgroundColor": "#ffffff",
-			"bundleIdentifier": "com.radiant.wallet2",
+			"bundleIdentifier": "app.streamprotocol.wallet",
 			"buildNumber": "0.0.1"
 		},
 		"android": {
@@ -26,7 +26,7 @@
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			},
-			"package": "com.radiant.wallet2",
+			"package": "app.streamprotocol.wallet",
 			"versionCode": 1
 		},
 		"web": {
@@ -38,9 +38,9 @@
 				{
 					"file": "sentry-expo/upload-sourcemaps",
 					"config": {
-						"organization": "radiant-wallet",
-						"project": "react-native",
-						"authToken": "2f929bb097fd4f5f89bd66566c0b33ea7af8658d919c45799b78faad1ba584d6"
+						"organization": "stream-protocol-ltd",
+						"project": "stream-mobile-wallet-app",
+						"authToken": "2b7d4b9f3c1a48e8ba7e725384d1bd95e3bf6b4263ec4f87b80562ae771fcbfb"
 					}
 				}
 			]
