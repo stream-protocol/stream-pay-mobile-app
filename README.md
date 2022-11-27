@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://i.imgur.com/ZpgeUEr.png" width="800" height="290"/>
+
 # StreamPay Wallet App
 
 StreamPay Wallet is the contactless, frictionless mobile payment and wallet for the Solana ecosystem.
