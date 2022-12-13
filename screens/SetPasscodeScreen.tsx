@@ -277,7 +277,7 @@ const SetPassCodeScreen = ({ navigation, route }: Props) => {
 				</View>
 				<View
 					style={{
-						borderColor: '#C9F977',
+						borderColor: '#243B55',
 						borderWidth: 1,
 						borderRadius: 18,
 						marginBottom: 40,

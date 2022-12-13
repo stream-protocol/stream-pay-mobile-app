@@ -82,7 +82,7 @@ const StakeScreen = ({ navigation, route }: Props) => {
 
 	function renderSubtext() {
 		if (token.price === 0) {
-			return `${token.amount} ${token.symbol} availalbe`;
+			return `${token.amount} ${token.symbol} available`;
 		}
 		return `$${normalizeNumber(token.amount * token.price)} available`;
 	}

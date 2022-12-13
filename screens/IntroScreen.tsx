@@ -57,7 +57,7 @@ const IntroScreen = ({ navigation }: Props) => {
 					<View
 						style={{
 							flexDirection: 'column',
-							borderColor: '#C9F977',
+							borderColor: '#243B55',
 							borderWidth: 1,
 							borderRadius: 18,
 							marginTop: 180,
@@ -79,7 +79,7 @@ const IntroScreen = ({ navigation }: Props) => {
 							marginTop: 32,
 						}}
 					>
-						© 2022 Stream Protocol LLC. All Rights Reserved
+						© 2022 StreamDAO. All Rights Reserved
 					</Text>
 				</View>
 			</View>

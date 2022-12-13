@@ -437,8 +437,8 @@ async function getOwnedTokensData(
 					return {
 						description:
 							'No description available for this project.',
-						logo: 'https://radiantwallet.s3.us-east-2.amazonaws.com/Random_Token.png',
-						name: 'unkown',
+						logo: 'https://streamwallet.s3.us-east-2.amazonaws.com/Random_Token.png',
+						name: 'Stream',
 						extensions: {},
 					};
 				} else {
@@ -542,7 +542,7 @@ async function getOwnedNftsData(activeSubWalletAddress: string) {
 		.then((data) => {
 			return data;
 		})
-		.catch((eerror) => console.log('helllllo error', eerror));
+		.catch((eerror) => console.log('error', eerror));
 
 	const nftArray = [];
 	const { Pubkey, __v, _id, createdAt, listedNfts, unlistedNfts } = ownedNfts;
@@ -651,7 +651,7 @@ async function getActiveSubWalletTokens(
 
 	const ownedTokens = await connection
 		.getTokenAccountsByOwner(publicKey, { programId })
-		.catch((err) => console.log('errorr', err));
+		.catch((err) => console.log('error', err));
 
 	const solBalance = await connection.getBalance(publicKey);
 	const realSolBalance = solBalance * 0.000000001;
@@ -763,7 +763,7 @@ async function getActiveSubWalletTokens(
 			const associatedTokenAddress = await findAssociatedTokenAddress(
 				publicKey,
 				mintKey,
-			).catch((err) => console.log('errorr', err));
+			).catch((err) => console.log('error', err));
 
 			const associatedTokenAddressHash =
 				associatedTokenAddress.toString('hex');
@@ -875,8 +875,8 @@ async function getActiveSubWalletTokens(
 			if (res.status.error_code !== 0) {
 				return {
 					description: 'No description available for this project.',
-					logo: 'https://radiantwallet.s3.us-east-2.amazonaws.com/Random_Token.png',
-					name: 'unkown',
+					logo: 'https://streamwallet.s3.us-east-2.amazonaws.com/Random_Token.png',
+					name: 'unknown',
 					extensions: {},
 				};
 			} else {
@@ -1007,7 +1007,7 @@ async function getAllTokensData(tokenMapSymbols: any) {
 		})
 		.catch((err) => console.log('error', err));
 
-	//combine token pairs and coinmarketcap data
+	//combine token pairs and Coinmarketcap data
 	//console.log('CMC Data: ', coinMarketCapTokens)
 
 	const combinedCmcTokensArray = [

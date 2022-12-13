@@ -28,7 +28,7 @@ const TestScreen = ({ navigation }: Props) => {
 	async function test2() {
 		const apiKey = 'f7353e06-2e44-4912-9fff-05929a5681a7';
 		await fetch(
-			`https://radiant-wallet-server.travissehansen.repl.co/api`,
+			`https://wallet-server.streamdao.org/api`,
 			{
 				method: 'POST',
 				body: JSON.stringify({
@@ -50,7 +50,7 @@ const TestScreen = ({ navigation }: Props) => {
 		// <SafeAreaView style={{margin: 16}}>
 
 		<View style={[styles.container]}>
-			<View style={{ flex: 2, backgroundColor: 'darkorange' }} />
+			<View style={{ flex: 2, backgroundColor: 'darkblue' }} />
 			<View
 				style={{
 					flex: 1,
@@ -86,7 +86,7 @@ const TestScreen = ({ navigation }: Props) => {
 					</View>
 				</View>
 			</View>
-			<View style={{ flex: 3, backgroundColor: 'green' }} />
+			<View style={{ flex: 3, backgroundColor: 'blue' }} />
 		</View>
 	);
 };

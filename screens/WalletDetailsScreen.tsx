@@ -172,7 +172,7 @@ const WalletDetailsScreen = ({ navigation }: Props) => {
 								/>
 							)
 						}}
-						style={{borderRadius: 18, height: 56, alignSelf: 'stretch' , backgroundColor: '#1E2122', justifyContent: 'center'}}
+						style={{borderRadius: 18, height: 56, alignSelf: 'stretch' , backgroundColor: '#141E30', justifyContent: 'center'}}
 					>
 						<Text style={{color: '#FFFFFF', ...theme.fonts.Nunito_Sans.Caption_M_SemiBold}} >
 							Address Copied!	
@@ -270,7 +270,7 @@ const WalletDetailsScreen = ({ navigation }: Props) => {
 							marginBottom: 24,
 						}}
 					>
-						You can always re-import this wallet to Radiant in the
+						You can always re-import this wallet to StreamPay in the
 						future.
 					</Text>
 					<View style={styles.removeWalletButton}>

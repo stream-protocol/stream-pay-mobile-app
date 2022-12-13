@@ -190,7 +190,7 @@ const SendScreen = ({ navigation, route }: Props) => {
 		const destPublicKey = new web3.PublicKey(to);
 		console.log('destPublicKey: ', destPublicKey);
 
-		// Get the derived address of the destination wallet which will hold the custom token
+		// Get the delivery address of the destination wallet which will hold the custom token
 		const associatedDestinationTokenAddr =
 			await Token.getAssociatedTokenAddress(
 				mintToken.associatedProgramId,
@@ -297,7 +297,7 @@ const SendScreen = ({ navigation, route }: Props) => {
 
 	function renderSubtext() {
 		if (token.price === 0) {
-			return `${token.amount} ${token.symbol} availalbe`;
+			return `${token.amount} ${token.symbol} available`;
 		}
 		return `$${normalizeNumber(token.amount * token.price)} available`;
 	}
